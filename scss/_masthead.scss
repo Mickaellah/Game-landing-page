@@ -1,0 +1,19 @@
+.masthead__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.masthead__text::after {
+    content: "";
+
+}
+
+.masthead__link--menu {
+    text-decoration: none;
+    visibility: hidden;
+}
+
+.masthead__link--menu::before {
+    content: "";
+}
