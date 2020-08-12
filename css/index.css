@@ -1,7 +1,15 @@
+body {
+  margin: 0; }
+
 .masthead__container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin: 16px; }
+
+.masthead__container > img {
+  width: 33px;
+  height: 33px; }
 
 .masthead__text::after {
   content: ""; }
@@ -10,5 +18,6 @@
   text-decoration: none;
   visibility: hidden; }
 
-.masthead__link--menu::before {
-  content: ""; }
+.masthead__link::before {
+  content: url("../img/menu.svg");
+  margin-inline-end: -32px; }
