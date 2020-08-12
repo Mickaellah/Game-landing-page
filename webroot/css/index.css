@@ -1,5 +1,14 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url("../fonts/BebasNeue-Regular.woff") format("woff"), url("../fonts/BebasNeue-Regular.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
+
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: 'Open Sans'; }
 
 .masthead__container {
   display: flex;
