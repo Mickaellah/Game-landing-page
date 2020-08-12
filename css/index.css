@@ -30,3 +30,25 @@ body {
 .masthead__link::before {
   content: url("../img/menu.svg");
   margin-inline-end: -32px; }
+
+.description {
+  text-align: center;
+  font-family: 'Bebas Neue';
+  margin-block-start: 179px;
+  background-image: url("../img/angelina-jungle.png"); }
+
+.description__heading {
+  font-weight: bold;
+  font-size: 33px; }
+
+.description__category {
+  font-weight: bold;
+  font-size: 18px; }
+
+.description__button {
+  font-weight: bold;
+  color: #1A1917;
+  padding: 16px;
+  background-color: #ffbf48;
+  border: none;
+  border-radius: 5px; }
