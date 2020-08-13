@@ -52,9 +52,17 @@ button {
   padding: 16px;
   background-color: #ffbf48;
   border: none;
-  border-radius: 5px; }
+  border-radius: 5px;
+  margin-block-end: 175px; }
 
 select {
   background-color: transparent;
   border: none;
   color: #ffffff; }
+
+.history {
+  padding-block-end: 57px;
+  margin-inline-end: 235px; }
+
+.history::after {
+  content: ""; }
