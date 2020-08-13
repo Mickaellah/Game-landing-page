@@ -1,23 +1,23 @@
-section > header > div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 16px;
-    margin-block-start: 0;
-}
+// section > header > div {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     margin: 16px;
+//     margin-block-start: 0;
+// }
 
-section > header > div > img {
-    width: 33px;
-    height: 33px;
-}
+// section > header > div > img {
+//     width: 33px;
+//     height: 33px;
+// }
 
 
-a {
-    text-decoration: none;
-    visibility: hidden;
-}
+// a {
+//     text-decoration: none;
+//     visibility: hidden;
+// }
 
-.link::before {
-    content: url("../img/menu.svg");
-    margin-inline-end: -32px;
-}
+// .link::before {
+//     content: url("../img/menu.svg");
+//     margin-inline-end: -32px;
+// }
