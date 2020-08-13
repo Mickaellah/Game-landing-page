@@ -1,0 +1,28 @@
+.section_sos {
+    background-image: url("../img/bg\ image\ 2.png");
+    background-repeat: no-repeat;
+    color: #ffffff;
+    // text-align: center;
+}
+
+.section_sos__header {
+    font-family: 'Bebas Neue';
+    display: flex;
+    flex-direction: column-reverse;
+    margin-inline-start: 13px;
+    margin-inline-end: 34px;
+}
+
+.sectoon_sos__heading {
+    margin-block-start: 0;
+}
+
+.section_sos__category {
+    font-size: 18px;
+    margin-block-end: 0;
+}
+
+.section_sos__container {
+    margin-inline-start: 36px;
+    margin-inline-end: 14px;
+}
