@@ -1,27 +1,35 @@
-.description {
+section {
     text-align: center;
     font-family: 'Bebas Neue';
-    margin-block-start: 179px;
     background-image: url('../img/angelina-jungle.png');
 
 }
 
+section > article {
+    margin-block-start: 179px;
+}
 
-.description__heading {
+section > h2 {
     font-weight: bold;
     font-size: 33px;
 }
 
-.description__category {
+section > article > div:nth-child(1) > p {
     font-weight: bold;
     font-size: 18px;
 }
 
-.description__button {
+button {
     font-weight: bold;
     color: #1A1917;
     padding: 16px;
     background-color: #ffbf48;
     border: none;
     border-radius: 5px;
+}
+
+select {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
 }

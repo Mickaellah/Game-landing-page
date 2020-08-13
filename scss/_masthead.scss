@@ -1,26 +1,23 @@
-.masthead__container {
+section > header > div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 16px;
+    margin-block-start: 0;
 }
 
-.masthead__container > img {
+section > header > div > img {
     width: 33px;
     height: 33px;
 }
 
-.masthead__text::after {
-    content: "";
 
-}
-
-.masthead__link--menu {
+a {
     text-decoration: none;
     visibility: hidden;
 }
 
-.masthead__link::before {
+.link::before {
     content: url("../img/menu.svg");
     margin-inline-end: -32px;
 }

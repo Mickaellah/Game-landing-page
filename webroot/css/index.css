@@ -8,47 +8,53 @@
 
 body {
   margin: 0;
-  font-family: 'Open Sans'; }
+  font-family: 'Open Sans';
+  color: #ffffff; }
 
-.masthead__container {
+section > header > div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 16px; }
+  margin: 16px;
+  margin-block-start: 0; }
 
-.masthead__container > img {
+section > header > div > img {
   width: 33px;
   height: 33px; }
 
-.masthead__text::after {
-  content: ""; }
-
-.masthead__link--menu {
+a {
   text-decoration: none;
   visibility: hidden; }
 
-.masthead__link::before {
+.link::before {
   content: url("../img/menu.svg");
   margin-inline-end: -32px; }
 
-.description {
+section {
   text-align: center;
   font-family: 'Bebas Neue';
-  margin-block-start: 179px;
   background-image: url("../img/angelina-jungle.png"); }
 
-.description__heading {
+section > article {
+  margin-block-start: 179px; }
+
+section > h2 {
   font-weight: bold;
   font-size: 33px; }
 
-.description__category {
+section > article > div:nth-child(1) > p {
   font-weight: bold;
   font-size: 18px; }
 
-.description__button {
+button {
   font-weight: bold;
   color: #1A1917;
   padding: 16px;
   background-color: #ffbf48;
   border: none;
   border-radius: 5px; }
+
+select {
+  background-color: transparent;
+  border: none;
+  color: #ffffff; }
