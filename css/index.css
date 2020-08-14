@@ -10,12 +10,12 @@ body {
   margin: 0;
   font-family: 'Open Sans'; }
 
-h2 {
-  font-size: 33px; }
-
 ul {
   list-style: none;
   padding: 0; }
+
+.masthead {
+  position: relative; }
 
 .masthead__container {
   display: flex;
@@ -27,7 +27,8 @@ ul {
 
 .masthead__container > img {
   width: 33px;
-  height: 33px; }
+  height: 33px;
+  margin-block-start: -5px; }
 
 .masthead__option {
   background-color: transparent;
@@ -45,22 +46,30 @@ ul {
 .masthead__link::before {
   content: url("../img/menu.svg");
   margin-inline-end: -32px;
-  margin-inline-start: 16px; }
+  margin-inline-start: 16px;
+  margin-block-start: 0px; }
+
+.masthead__link {
+  margin-block-start: 0px; }
 
 .main__header {
   background-image: url("../img/angelina-jungle.png");
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   padding-block-start: 179px;
   text-align: center;
   color: #ffffff;
   font-family: 'Bebas Neue'; }
+
+.main__header_container {
+  position: relative; }
 
 .main__heading {
   font-size: 33px; }
 
 .main__description_text {
   font-size: 18px;
-  font-weight: bold;
   margin-inline-start: 36px;
   margin-inline-end: 36px; }
 
@@ -79,6 +88,8 @@ ul {
 .section_sos {
   background-image: url("../img/bg image 2.png");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   color: #ffffff; }
 
 .section_sos__header {
