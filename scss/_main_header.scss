@@ -1,10 +1,16 @@
 .main__header {
     background-image: url("../img/angelina-jungle.png");
     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     padding-block-start: 179px;
     text-align: center;
     color: #ffffff;
     font-family: 'Bebas Neue';
+}
+
+.main__header_container {
+    position: relative;
 }
 
 .main__heading {
@@ -13,7 +19,6 @@
 
 .main__description_text {
     font-size: 18px;
-    font-weight: bold;
     margin-inline-start: 36px;
     margin-inline-end: 36px;
 }
