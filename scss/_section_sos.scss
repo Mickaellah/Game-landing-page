@@ -8,6 +8,10 @@
 }
 
 .section_sos__header {
+    border-bottom: 2px solid;
+}
+
+.section_sos__header > .container {
     font-family: 'Bebas Neue';
     display: flex;
     flex-direction: column-reverse;
@@ -27,4 +31,35 @@
 .section_sos__container {
     margin-inline-start: 36px;
     margin-inline-end: 14px;
+    margin-block-start: 26px;
+    margin-block-end: 51px;
+}
+
+.images_container {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-block-end: 64px;
+    margin-inline-start: 6px;
+}
+
+.image1 {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 32px;
+}
+
+.image2 {
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    left: 75px;
+}
+
+.image3 {
+    position: relative;
+    z-index: 1;
+    top: 20px;
+    left: 90px;
 }
