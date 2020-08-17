@@ -3,7 +3,7 @@
     background-image: url("../img/bg\ image\ 3.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center top;
 }
 
 .features > * {
@@ -13,7 +13,7 @@
 .features__header > .container {
     display: flex;
     flex-direction: column-reverse;
-    padding-block-start: 79px;
+    padding-block-start: 81px;
 
 }
 
