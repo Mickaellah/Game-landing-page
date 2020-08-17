@@ -24,6 +24,14 @@ h4 {
   font-family: 'Bebas Neue';
   font-weight: 400; }
 
+h2 {
+  font-size: 33px; }
+
+h4 {
+  font-size: 18px;
+  color: #ffbf48;
+  margin: 0; }
+
 .masthead {
   position: relative; }
 
@@ -202,11 +210,6 @@ h4 {
   padding: 11px;
   border: 1px solid gray; }
 
-.system__lists {
-  font-size: 18px;
-  color: #ffbf48;
-  margin: 0; }
-
 .system__navigation--container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -234,3 +237,58 @@ h4 {
 
 .system__text {
   margin: 0; }
+
+.quotes {
+  background-image: url("../img/bg image 5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #ffffff;
+  padding: 16px; }
+
+.quotes__header > .container {
+  display: flex;
+  flex-direction: column-reverse; }
+
+.quotes__heading {
+  margin-block-start: 0; }
+
+.quotes__category {
+  margin-block-end: 0; }
+
+.quotes__bttn {
+  text-align: center;
+  padding: 16px;
+  background-color: #ffbf48;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  margin-inline-start: 56px; }
+
+.quotes__lists_item {
+  background-color: #979797;
+  border-radius: 10px;
+  margin: 16px;
+  padding: 16px; }
+
+.quotes__activity {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: grey; }
+
+.quotes__date {
+  font-size: 12px;
+  color: grey; }
+
+.quotes__writer--evan {
+  margin-inline-start: 54px;
+  margin-block-start: -48px; }
+
+.quotes__lists_item--evan::before {
+  content: url("../img/evan.png"); }
+
+.quotes__writer--jada::before {
+  content: url("../img/jada.png"); }
+
+.quotes__writer--aaron {
+  content: url("../img/aaron.png"); }
