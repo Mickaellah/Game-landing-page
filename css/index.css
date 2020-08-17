@@ -33,7 +33,8 @@ h4 {
   justify-content: space-between;
   margin: 16px;
   position: absolute;
-  color: #ffffff; }
+  color: #ffffff;
+  width: 100%; }
 
 .masthead__container > img {
   width: 33px;
@@ -45,7 +46,7 @@ h4 {
   border: none;
   color: #ffffff;
   margin-inline-start: 148px;
-  margin-block-start: -32px;
+  margin-block-start: -16px;
   text-transform: uppercase;
   font-weight: bold; }
 
@@ -55,7 +56,7 @@ h4 {
 
 .masthead__link::before {
   content: url("../img/menu.svg");
-  margin-inline-end: -32px;
+  margin-inline-end: -15px;
   margin-inline-start: 16px;
   margin-block-start: 0px; }
 
