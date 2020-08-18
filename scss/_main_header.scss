@@ -8,6 +8,7 @@
     font-family: 'Bebas Neue';
 }
 
+
 .main__heading {
     font-size: 33px;
 }
@@ -28,6 +29,16 @@
 
 .main__text_history {
     margin-inline-end: 225px;
-    padding-block-end: 49px;
     margin-block-end: 0;
+}
+
+.main__text_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-block-end: 49px;
+}
+
+.main__icons {
+    margin-block-start: -16px;
 }
