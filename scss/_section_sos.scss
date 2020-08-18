@@ -7,13 +7,14 @@
 
 .section_sos__header {
     border-bottom: 2px solid;
+    margin-inline-start: 16px;
 }
 
 .section_sos__header > .container {
     font-family: 'Bebas Neue';
     display: flex;
     flex-direction: column-reverse;
-    margin-inline-start: 13px;
+    margin-inline-start: -5px;
     margin-inline-end: 34px;
 }
 
