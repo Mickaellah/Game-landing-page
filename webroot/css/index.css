@@ -114,11 +114,6 @@ h4 {
   background-size: cover;
   background-position: center center; }
 
-.section_sos::after {
-  content: url("../img/triangle-icon.svg");
-  bottom: -340px;
-  margin-inline-start: 300px; }
-
 .section_sos__header {
   border-bottom: 2px solid;
   margin-inline-start: 16px; }
