@@ -42,7 +42,6 @@ h4 {
   justify-content: space-between;
   margin: 16px;
   position: absolute;
-  color: #ffffff;
   width: 100%; }
 
 .masthead__container > img {
@@ -79,7 +78,6 @@ h4 {
   background-size: cover;
   padding-block-start: 179px;
   text-align: center;
-  color: #ffffff;
   font-family: 'Bebas Neue'; }
 
 .main__heading {
@@ -106,8 +104,7 @@ h4 {
   background-image: url("../img/bg image 2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  color: #ffffff; }
+  background-position: center center; }
 
 .section_sos__header {
   border-bottom: 2px solid; }
@@ -158,7 +155,6 @@ h4 {
   left: 90px; }
 
 .features {
-  color: #ffffff;
   background-image: url("../img/bg image 3.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -193,7 +189,6 @@ h4 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  color: #ffffff;
   padding: 16px; }
 
 .system__header > .container {
@@ -244,7 +239,6 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  color: #ffffff;
   padding: 16px; }
 
 .quotes__header > .container {
@@ -299,8 +293,7 @@ h4 {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-  background-color: black;
-  color: #ffffff; }
+  background-color: black; }
 
 .newsletter > * {
   margin-inline-start: 116px; }
