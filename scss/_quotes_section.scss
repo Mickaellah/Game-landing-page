@@ -30,15 +30,15 @@
     margin-inline-start: 56px;
 }
 
-.quotes__writer {
-    // margin-inline-start: 32px;
-}
 
 .quotes__lists_item {
     background-color: grey;
     border-radius: 10px;
     margin: 16px;
     padding: 16px;
+    background-image: url('../img/twitter-grey.svg');
+    background-repeat: no-repeat;
+    background-position: 234px 13px;
 }
 
 .quotes__activity {
