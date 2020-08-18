@@ -9,7 +9,8 @@
 body {
   margin: 0;
   font-family: 'Open Sans';
-  font-size: 14px; }
+  font-size: 14px;
+  color: #ffffff; }
 
 ul {
   list-style: none;
@@ -343,3 +344,94 @@ label {
   background-color: #ffbf48;
   border: none;
   border-radius: 5px; }
+
+.footer {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: black;
+  text-align: center; }
+
+.footer__image > img {
+  width: 50px;
+  height: 50px;
+  margin-block-start: 32px;
+  margin-block-end: 42px; }
+
+.footer__navigation_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-inline-end: 26px; }
+
+.footer__list_item {
+  margin-block-end: 21px; }
+
+.footer__list_item--main {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2; }
+
+.footer__list_item--about {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2; }
+
+.footer__list_item--game {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2; }
+
+.footer__list_item--requirements {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3; }
+
+.footer__list_item--quotes {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3; }
+
+.footer__navigation_icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-bottom: 1px solid gray;
+  margin-inline-start: 16px;
+  margin-inline-end: 16px; }
+
+.footer__list_icon {
+  margin-block-end: 28px; }
+
+.footer__list_icon--facebook {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2; }
+
+.footer__list_icon--twitter {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2; }
+
+.footer__list_icon--audio {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2; }
+
+.footer__list_icon--cursor {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  margin-block-start: 12px;
+  margin-inline-start: 26px; }
+
+.footer__list_icon--twitch {
+  grid-column: 4 / 5;
+  grid-row: 1/ 2; }
+
+.footer__copyright {
+  margin-block-start: 19px; }
+
+.footer__copyright_text {
+  font-size: 12px;
+  color: gray;
+  text-transform: lowercase; }
+
+.footer__last_navigation {
+  margin-block-start: 32px; }
+
+.footer__last_navigation--container {
+  padding-block-end: 63px; }
+
+.footer__last_list_item {
+  margin-block-start: 13px; }
