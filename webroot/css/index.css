@@ -302,7 +302,9 @@ h4 {
   border-radius: 5px;
   border: none;
   font-weight: bold;
-  margin-inline-start: 56px; }
+  margin-inline-start: 56px;
+  margin-block-start: 13px;
+  margin-block-end: 30px; }
 
 .quotes__lists_item {
   background-color: grey;
@@ -311,7 +313,10 @@ h4 {
   padding: 16px;
   background-image: url("../img/twitter-grey.svg");
   background-repeat: no-repeat;
-  background-position: 234px 13px; }
+  background-position: 250px 13px; }
+
+.quotes__lists_item--aaron {
+  margin-block-end: 80px; }
 
 .quotes__activity {
   font-family: 'Open Sans';
