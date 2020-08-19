@@ -58,18 +58,50 @@ h4 {
   text-transform: uppercase;
   font-weight: bold; }
 
-.masthead__menu_link {
-  text-decoration: none;
-  visibility: hidden; }
+.label_menu {
+  color: transparent; }
 
-.masthead__link::before {
+.menu {
+  background-image: url("../svg/menu.svg");
+  background-repeat: no-repeat; }
+
+.label_menu::before {
   content: url("../img/menu.svg");
   margin-inline-end: -15px;
   margin-inline-start: 16px;
-  margin-block-start: 0px; }
+  margin-block-start: -16px; }
 
-.masthead__link {
-  margin-block-start: 0px; }
+.header__navigation {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -280px;
+  width: 250px;
+  z-index: 1;
+  background-color: white; }
+
+[type="checkbox"] {
+  display: none; }
+
+[type="checkbox"]:checked ~ .header__navigation {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  z-index: 1;
+  background-color: #000000;
+  transform: translateX(0); }
+
+.header__list_item {
+  padding-block-start: 2rem; }
+
+.header__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: white; }
 
 .main__header {
   background-image: url("../img/angelina-jungle.png");
