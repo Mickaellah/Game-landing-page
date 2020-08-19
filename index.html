@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="webroot/css/index.css">
 </head>
 <body>
+    <input class="input_class" type="checkbox" id="checkbox_menu">
     <header class="masthead">
         <div class="masthead__container">
             <img src="webroot/img/bg-image.svg" alt="Bg image">
@@ -25,11 +26,23 @@
                 </option>
             </select>
 
-            <p class="masthead__link">
+            <label class="label_menu" for="checkbox_menu" >
+                <span class="menu">Menu</span>
+            </label>
+            <!-- <p class="masthead__link">
                 <a class="masthead__menu_link" href="/menu">Menu</a>
-            </p>
+            </p> -->
         </div>
     </header>
+    <nav class="header__navigation">
+        <ul class="header__navigation_container">
+            <li class="header__list_item"><a class="header__link header__link--main" href="/main">Main</a></li>
+            <li class="header__list_item"><a class="header__link header__link--about" href="/about">About</a></li>
+            <li class="header__list_item"><a class="header__link header__link--game" href="/game">Game features</a></li>
+            <li class="header__list_item"><a class="header__link header__link--system" href="/system">System requirements</a></li>
+            <li class="header__list_item"><a class="header__link header__link--quotes" href="/quotes">Quotes</a></li>
+        </ul>
+    </nav>
 
     <main>
         <header class="main__header">
