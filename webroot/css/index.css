@@ -36,6 +36,12 @@ h4 {
 .category {
   font-size: 18px; }
 
+@media (min-width: 768px) {
+  h2 {
+    font-size: 55px; }
+  .category {
+    font-size: 24px; } }
+
 .masthead {
   position: relative; }
 
@@ -246,7 +252,7 @@ h4 {
   border-bottom: 3px solid #ffbf48; }
 
 .features {
-  background-image: url("../img/bg image 3-copy.png");
+  background-image: url("../img/bg image 3.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top; }
