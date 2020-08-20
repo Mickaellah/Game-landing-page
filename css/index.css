@@ -64,10 +64,6 @@ h4 {
 .label_menu {
   color: transparent; }
 
-.menu {
-  background-image: url("../svg/menu.svg");
-  background-repeat: no-repeat; }
-
 .label_menu::before {
   content: url("../img/menu.svg");
   margin-inline-end: -15px;
@@ -108,9 +104,9 @@ h4 {
   color: white; }
 
 .main__header {
-  background-image: url("../img/angelina-jungle.png");
+  background-image: url("../img/first-background-copy.jpg");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 30% 50%;
   background-size: cover;
   padding-block-start: 179px;
   text-align: center;
@@ -203,7 +199,7 @@ h4 {
   border-bottom: 3px solid #ffbf48; }
 
 .features {
-  background-image: url("../img/bg image 3.png");
+  background-image: url("../img/bg image 3-copy.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top; }
