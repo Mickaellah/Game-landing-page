@@ -31,10 +31,6 @@
     color: transparent;
 }
   
-.menu {
-    background-image: url("../svg/menu.svg");
-    background-repeat: no-repeat;
-}
 
 .label_menu::before {
     content: url("../img/menu.svg");
