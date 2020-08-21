@@ -123,6 +123,7 @@ h4 {
     display: none; }
   .header__navigation {
     position: absolute;
+    display: inline-table;
     background-color: transparent;
     left: 0;
     width: 0; }
@@ -140,7 +141,11 @@ h4 {
     margin-block-start: -16px;
     margin-inline-start: 32px; }
   .masthead__option {
-    margin-inline-start: 1100px; } }
+    margin-inline-end: 246px;
+    margin-block-start: 8px;
+    background-color: black; }
+  .deu {
+    color: #ffbf48; } }
 
 .main__header {
   background-image: url("../img/first-background-copy.jpg");
