@@ -280,6 +280,8 @@ h4 {
   margin-block-end: 0; }
 
 .features__lists {
+  font-family: 'Bebas Neue';
+  font-size: 21px;
   color: #ffbf48; }
 
 .features__lists--last {
