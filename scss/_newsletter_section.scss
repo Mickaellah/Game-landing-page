@@ -59,6 +59,14 @@ label {
 }
 
 @media (min-width: 768px) {
+    .newsletter {
+        background-image: url('../img/Group\ 3.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 82px;
+    }
+
+
     .newsletter__header,
     .newsletter__text_container {
         max-width: 1197px;
@@ -66,20 +74,30 @@ label {
         margin-inline-end: auto ;
     }
 
+    .newsletter__category {
+        padding-block-start: 200px;
+    }
+
     .newsletter__header,
     .newsletter__explanation {
-        margin-inline-start: 675px;
+        padding-inline-start: 675px;
+    }
+
+    .newsletter__explanation {
+        margin-inline-start: -150px;
     }
 
     .newsletter__form {
-        margin-block-start: 0;
-        margin-inline-start: 0;
-        margin-inline-end: 0;
+        height: 32px;
+        margin-inline-start: -148px;
+        margin-block-start: 20px;
+        padding-inline-end: 178px;
     }
 
     .form_container {
         display: flex;
         justify-content: space-between;
         margin-inline-start: 675px;
+        padding-block-end: 142px;
     }
 }
