@@ -559,7 +559,7 @@ label {
 .footer__copyright_text {
   font-size: 12px;
   color: gray;
-  text-transform: lowercase; }
+  text-transform: capitalize; }
 
 .footer__last_navigation {
   margin-block-start: 32px; }
