@@ -60,3 +60,32 @@
 .system__text {
     margin: 0;
 }
+
+@media (min-width: 768px) {
+    .system {
+        background-image: url("../img/requirements-big-copy.png");
+    }
+
+    .system > * {
+        max-width: 1197px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+    }
+
+    .system__header > .container {
+        text-align: center;
+    }
+
+    .system__category {
+        margin-block-start: 145px;
+    }
+
+    .system__navigation--container {
+        max-width: 573px;
+        margin-block-start: 133px;
+    }
+    
+    .system__list_item {
+        padding-block-end: 32px;
+    }
+}
