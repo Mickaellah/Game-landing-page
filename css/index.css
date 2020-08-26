@@ -417,6 +417,34 @@ h4 {
 .quotes__lists_item--aaron::before {
   content: url("../img/aaron.png"); }
 
+@media (min-width: 768px) {
+  .quotes {
+    display: flex; }
+  .quotes > * {
+    max-width: 1197px;
+    margin-inline-start: auto;
+    margin-inline-end: auto; }
+  .quotes__main_part {
+    max-width: 437px;
+    padding-block-start: 303px; }
+  .quotes__bttn {
+    margin-inline-start: 0;
+    margin-block-start: 37px; }
+  .quotes__writers {
+    padding-block-start: 160px; }
+  .quotes__navigation_container {
+    padding-block-end: 148px; }
+  .quotes__lists_item {
+    max-width: 300px;
+    background-position: 300px 13px; }
+  .quotes__lists_item--evan {
+    margin-inline-start: 155px; }
+  .quotes__lists_item--jada {
+    margin-inline-end: 225px; }
+  .quotes__lists_item--aaron {
+    margin-inline-start: 105px;
+    margin-block-end: 0; } }
+
 .newsletter {
   background-image: url("../img/newsletter.png");
   background-repeat: no-repeat;
