@@ -256,6 +256,12 @@ h4 {
 .section_sos__content > span {
   border-bottom: 3px solid #ffbf48; }
 
+@media (min-width: 768px) {
+  .section_sos {
+    display: flex; }
+  .section_sos > * {
+    max-width: 1197px; } }
+
 .features {
   background-image: url("../img/bg image 3.png");
   background-repeat: no-repeat;
