@@ -410,7 +410,7 @@ h4 {
   margin-block-end: 30px; }
 
 .quotes__lists_item {
-  background-color: dimgrey;
+  background-color: #979797;
   border-radius: 10px;
   margin: 16px;
   padding: 16px;
@@ -464,12 +464,12 @@ h4 {
     max-width: 300px;
     background-position: 300px 13px; }
   .quotes__lists_item--evan {
-    margin-inline-start: 155px; }
-  .quotes__lists_item--jada {
-    margin-inline-end: 225px; }
+    margin-inline-start: 165px;
+    background-position: 275px 13px; }
   .quotes__lists_item--aaron {
     margin-inline-start: 105px;
-    margin-block-end: 0; } }
+    margin-block-end: 0;
+    margin-inline-end: 40px; } }
 
 .newsletter {
   background-image: url("../img/newsletter.png");
