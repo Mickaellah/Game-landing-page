@@ -81,6 +81,12 @@
 }
 
 @media (min-width: 768px) {
+    .masthead {
+        max-width: 1197px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+    }
+
     .header {
         display: flex;
         flex-direction: row;
@@ -128,22 +134,38 @@
     }
 
     .masthead__option {
-        margin-inline-end: 246px;
+        margin-inline-start: 860px;
         margin-block-start: 8px;
-        background-color: black;
     }
 
+    .eng {
+        background-color: transparent;
+    }
+
+    .rus,
+    .fra,
+    .deu {
+        background-color: black;
+    }
 
     .deu {
         color: #ffbf48;
     }
 
-    // .header__navigation {
-    //     background-image: url('../img/xbox\ icon.png'), url('../webroot/img/steam\ icon.png');
-    //     background-size: 30px;
-    //     background-repeat: no-repeat, no-repeat;
-    //     background-position: top right, top right;
-    // }
+    .masthead__images {
+        margin-block-start: 8px;
+        margin-inline-end: 32px;
+    }
+
+    .masthead__images::before {
+        content: '⎜';
+        color: darkgrey;
+        margin-inline-end: 32px;
+    }
+
+    .masthead__images_xbox {
+        margin-inline-end: 16px;
+    }
 }
 
 
