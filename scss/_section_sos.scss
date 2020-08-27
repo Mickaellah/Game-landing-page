@@ -71,10 +71,26 @@
 
 @media (min-width: 768px) {
     .section_sos {
-        display: flex;
+        // display: flex;
     }
     
     .section_sos > * {
         max-width: 1197px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
     }
+
+    .section_sos__header {
+        // margin-inline-end: 300px;
+    }
+
+    .section_sos__category {
+        padding-block-start: 252px;
+    }
+
+    .images_container {
+        padding-block-end: 149px;
+    }
+
+
 }

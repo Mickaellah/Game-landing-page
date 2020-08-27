@@ -257,10 +257,14 @@ h4 {
   border-bottom: 3px solid #ffbf48; }
 
 @media (min-width: 768px) {
-  .section_sos {
-    display: flex; }
   .section_sos > * {
-    max-width: 1197px; } }
+    max-width: 1197px;
+    margin-inline-start: auto;
+    margin-inline-end: auto; }
+  .section_sos__category {
+    padding-block-start: 252px; }
+  .images_container {
+    padding-block-end: 149px; } }
 
 .features {
   background-image: url("../img/bg image 3.png");
