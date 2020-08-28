@@ -34,11 +34,14 @@
     color: #ffbf48;
 }
 
-
-.features__lists--last {
-    padding-block-end: 72px;
-    margin-block-end: 0;
+.features__lists::-webkit-details-marker {
+    display: none;
 }
+
+.features__list_item:last-child {
+    padding-block-end: 72px;
+}
+
 
 @media (min-width: 768px) {
     .features {
@@ -57,9 +60,10 @@
         padding-block-start: 259px;
     }
 
-    .features__lists--last {
+    .features__list_item:last-child {
         padding-block-end: 259px;
     }
+
 
     .features__lists--description {
         margin-inline-end: 370px;
