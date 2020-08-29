@@ -69,7 +69,8 @@ h4 {
   font-weight: bold; }
 
 .label_menu {
-  color: transparent; }
+  color: transparent;
+  margin-inline-end: 16px; }
 
 .label_menu::before {
   content: url("../img/menu.svg");
@@ -109,6 +110,9 @@ h4 {
   font-size: 12px;
   font-weight: bold;
   color: white; }
+
+.masthead__images {
+  display: none; }
 
 @media (min-width: 768px) {
   .masthead {
@@ -150,10 +154,6 @@ h4 {
     margin-block-start: 8px; }
   .eng {
     background-color: transparent; }
-  .rus,
-  .fra,
-  .deu {
-    background-color: black; }
   .deu {
     color: #ffbf48; }
   .masthead__images {

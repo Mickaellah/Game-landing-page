@@ -29,6 +29,7 @@
 
 .label_menu {
     color: transparent;
+    margin-inline-end: 16px;
 }
   
 
@@ -78,6 +79,10 @@
     font-size: 12px;
     font-weight: bold;
     color: white;
+}
+
+.masthead__images {
+    display: none;
 }
 
 @media (min-width: 768px) {
@@ -142,11 +147,6 @@
         background-color: transparent;
     }
 
-    .rus,
-    .fra,
-    .deu {
-        background-color: black;
-    }
 
     .deu {
         color: #ffbf48;
