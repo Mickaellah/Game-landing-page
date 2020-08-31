@@ -157,6 +157,7 @@ h4 {
   .deu {
     color: #ffbf48; }
   .masthead__images {
+    display: block;
     margin-block-start: 8px;
     margin-inline-end: 32px; }
   .masthead__images::before {
