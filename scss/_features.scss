@@ -40,8 +40,28 @@
     height: 5px;
     // top: 0;
     left: 0;
+    z-index: 1;
 }
 
+.features__container details::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid white;
+    height: 100%;
+    margin-inline-start: 11px;
+    z-index: 2;
+}
+
+details:last-child {
+    bottom: auto;
+    height: 0;
+}
+
+
+.features__lists--description {
+    margin-inline-start: 48px;
+}
 
 .features__lists {
     font-family: 'Bebas Neue';
@@ -81,13 +101,6 @@ details:last-child {
     details:last-child {
         padding-block-end: 259px;
     }
-
-    // .features__container summary::before {
-    //     left: 750px;
-    // }
-
-
-
 
     .features__lists--description {
         margin-inline-end: 370px;
