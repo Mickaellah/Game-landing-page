@@ -318,7 +318,24 @@ h4 {
   border-radius: 50%;
   width: 5px;
   height: 5px;
-  left: 0; }
+  left: 0;
+  z-index: 1; }
+
+.features__container details::before {
+  content: '';
+  display: block;
+  position: absolute;
+  border: 1px solid white;
+  height: 100%;
+  margin-inline-start: 11px;
+  z-index: 2; }
+
+details:last-child {
+  bottom: auto;
+  height: 0; }
+
+.features__lists--description {
+  margin-inline-start: 48px; }
 
 .features__lists {
   font-family: 'Bebas Neue';
