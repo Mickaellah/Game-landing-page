@@ -330,14 +330,14 @@ h4 {
   margin-inline-start: 11px;
   z-index: 2; }
 
-.features__content:last-child::before {
-  bottom: auto;
-  height: 0; }
+.features__content--last_child::before {
+  height: 0;
+  bottom: auto; }
 
 .features__content[open] .features__lists::before {
   background-color: white; }
 
-.features__content:last-child {
+.features__content--last_child {
   padding-block-end: 72px; }
 
 .features__lists::-webkit-details-marker {
@@ -356,7 +356,7 @@ h4 {
 
 @media (min-width: 768px) {
   .features {
-    background-image: url("../img/second-background-copy.png");
+    background-image: url("../img/second-background-copy.png"), url("../webroot/img/radial.png");
     background-position: center center; }
   .features > * {
     max-width: 1197px;
@@ -364,7 +364,7 @@ h4 {
     margin-inline-start: 797px; }
   .features__category {
     padding-block-start: 259px; }
-  .features__content:last-child {
+  .features__content--last_child {
     padding-block-end: 259px; }
   .features__lists--description {
     margin-inline-end: 200px; } }
