@@ -53,16 +53,16 @@
     z-index: 2;
 }
 
-.features__content:last-child::before {
-    bottom: auto;
+.features__content--last_child::before {
     height: 0;
+    bottom: auto;
 }
 
 .features__content[open] .features__lists::before {
     background-color: white;
 }
 
-.features__content:last-child {
+.features__content--last_child {
     padding-block-end: 72px;
 }
 
@@ -87,7 +87,8 @@
 
 @media (min-width: 768px) {
     .features {
-        background-image: url('../img/second-background-copy.png');
+        background-image: url('../img/second-background-copy.png'),
+                            url('../webroot/img/radial.png');
         background-position: center center;
     }
     
@@ -101,7 +102,7 @@
         padding-block-start: 259px;
     }
 
-    .features__content:last-child {
+    .features__content--last_child {
         padding-block-end: 259px;
     }
 
