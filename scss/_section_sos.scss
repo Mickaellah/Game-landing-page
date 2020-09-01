@@ -71,7 +71,7 @@
 
 @media (min-width: 768px) {
     .section_sos {
-        // display: flex;
+        display: flex;
     }
     
     .section_sos > * {
@@ -80,8 +80,13 @@
         margin-inline-end: auto;
     }
 
-    .section_sos__header {
-        // margin-inline-end: 300px;
+    .section_sos__main {
+        max-width: 598px;
+        margin-block-end: 268px;
+    }
+
+    .section_sos__content {
+        margin-inline-start: 150px;
     }
 
     .section_sos__category {
@@ -90,6 +95,12 @@
 
     .images_container {
         padding-block-end: 149px;
+        margin-block-start: 201px;
+        margin-inline-end: 189px;
+    }
+
+    .image {
+        // width: 150%;
     }
 
 
