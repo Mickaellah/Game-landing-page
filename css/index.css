@@ -437,7 +437,7 @@ h4 {
     padding-block-end: 32px; } }
 
 .quotes {
-  background-image: url("../img/bg image 5.png"), url("../img/quotes-copy.png");
+  background-image: url("../img/bg image 5.png"), url("../img/quotes_background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
