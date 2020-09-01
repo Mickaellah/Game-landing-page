@@ -72,16 +72,9 @@
     grid-row: 1 / 2;
 }
 
-.footer__list_icon--audio {
+.footer__list_icon--youtube {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
-}
-
-.footer__list_icon--cursor {
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
-    margin-block-start: 12px;
-    margin-inline-start: 26px;
 }
 
 .footer__list_icon--twitch {
@@ -158,10 +151,6 @@
         margin-inline-start: 32px;
     }
 
-    .footer__list_icon--cursor {
-        margin-inline-start: -5px;
-    }
-
     .footer__copyright {
         display: flex;
         flex-direction: row;
@@ -181,6 +170,4 @@
         margin-inline-start: 8px;
     }
 
-
-    
 }
