@@ -421,7 +421,7 @@ h4 {
 
 @media (min-width: 768px) {
   .system {
-    background-image: url("../img/requirements-big-copy.png"); }
+    background-image: url("../img/requirements-big-copy.png"), url("../img/quotes-copy.png"); }
   .system > * {
     max-width: 1197px;
     margin-inline-start: auto;
