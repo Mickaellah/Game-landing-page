@@ -78,26 +78,29 @@ label {
         padding-block-start: 200px;
     }
 
-    .newsletter__header,
-    .newsletter__explanation {
-        padding-inline-start: 675px;
+    .newsletter__header {
+        margin-inline-start: 675px;
     }
 
     .newsletter__explanation {
-        margin-inline-start: -150px;
+        margin-inline-start: 600px;
     }
 
     .newsletter__form {
         width: 60%;
-        margin-inline-start: -148px;
+        margin-inline-start: -75px;
         margin-block-start: 20px;
-        height: 32px;
+        max-height: 32px;
     }
 
     .form_container {
         display: flex;
         justify-content: space-between;
         margin-inline-start: 675px;
-        padding-block-end: 142px;
+    }
+
+    .newsletter__subscribe_bttn {
+        padding-inline-start: 80px;
+        padding-inline-end: 80px;
     }
 }
