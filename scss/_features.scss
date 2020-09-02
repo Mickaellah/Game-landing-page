@@ -49,11 +49,13 @@
     position: absolute;
     border: 1px solid white;
     height: 100%;
-    margin-inline-start: 11px;
+    bottom: 0;
+    top: 0;
+    left: 11px;
     z-index: 2;
 }
 
-.features__content--last_child::before {
+.features__content:last-of-type::before {
     height: 0;
     bottom: auto;
 }
@@ -62,7 +64,7 @@
     background-color: white;
 }
 
-.features__content--last_child {
+.features__content:last-child {
     padding-block-end: 72px;
 }
 
@@ -87,8 +89,7 @@
 
 @media (min-width: 768px) {
     .features {
-        background-image: url('../img/second-background-copy.png'),
-                            url('../webroot/img/radial.png');
+        background-image: url('../img/second-background-copy.png');
         background-position: center center;
     }
     
@@ -99,10 +100,10 @@
     }
 
     .features__category {
-        padding-block-start: 259px;
+        padding-block-start: 187px;
     }
 
-    .features__content--last_child {
+    .features__content:last-child {
         padding-block-end: 259px;
     }
 
