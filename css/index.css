@@ -519,14 +519,14 @@ h4 {
     margin-inline-end: auto; }
   .quotes__main_part {
     max-width: 437px;
-    padding-block-start: 303px; }
+    margin-block-start: 303px; }
   .quotes__bttn {
     margin-inline-start: 0;
     margin-block-start: 37px; }
   .quotes__writers {
-    padding-block-start: 160px; }
+    margin-block-start: 160px; }
   .quotes__navigation_container {
-    padding-block-end: 148px; }
+    margin-block-end: 148px; }
   .quotes__lists_item {
     max-width: 300px;
     background-position: 300px 13px; }
@@ -534,9 +534,7 @@ h4 {
     margin-inline-start: 165px;
     background-position: 275px 13px; }
   .quotes__lists_item--aaron {
-    margin-inline-start: 105px;
-    margin-block-end: 0;
-    margin-inline-end: 40px; } }
+    margin-inline-start: 105px; } }
 
 .newsletter {
   background-image: url("../img/newsletter.png");
