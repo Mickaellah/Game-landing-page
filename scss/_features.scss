@@ -12,7 +12,7 @@
 .features__header > .container {
     display: flex;
     flex-direction: column-reverse;
-    padding-block-start: 81px;
+    // padding-block-start: 81px;
 
 }
 
@@ -55,7 +55,9 @@
     z-index: 2;
 }
 
-.features__content:last-of-type::before {
+
+
+.features__content:last-child::before {
     height: 0;
     bottom: auto;
 }
@@ -64,13 +66,13 @@
     background-color: white;
 }
 
-.features__content:last-child {
+.features__container {
     padding-block-end: 72px;
 }
 
 .features__lists::-webkit-details-marker {
     display: none;
-    position: relative;
+    // position: relative;
 }
 
 
@@ -103,7 +105,7 @@
         padding-block-start: 187px;
     }
 
-    .features__content:last-child {
+    .features__container {
         padding-block-end: 259px;
     }
 
